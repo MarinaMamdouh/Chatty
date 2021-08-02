@@ -6,12 +6,15 @@
 //
 
 import UIKit
+import CLTypingLabel
 
-class ViewController: UIViewController {
-
+class HomeViewController: UIViewController {
+    @IBOutlet weak var chattyLabel: CLTypingLabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        chattyLabel.text = K.APP_NAME
     }
 
 

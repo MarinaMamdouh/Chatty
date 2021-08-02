@@ -2,6 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Spartan-VariableFont_wght.ttf</string>
+		<string>Spartan-Bold.ttf</string>
+	</array>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app wants to access your photos to change your profile picture and let you send images</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
